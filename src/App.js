@@ -1,10 +1,10 @@
 import VideoBrowser from "./components/VideoBrowser";
-
+import "semantic-ui-css/semantic.min.css";
 
 function App() {
   return (
     <div className="App">
-  <VideoBrowser/>
+      <VideoBrowser />
     </div>
   );
 }

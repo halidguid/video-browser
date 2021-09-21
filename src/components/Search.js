@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Input } from "semantic-ui-react";
+import { Button } from "semantic-ui-react";
 
 export default function Search({ setWord }) {
   const [input, setInput] = useState("");
@@ -19,13 +21,15 @@ export default function Search({ setWord }) {
 
   return (
     <div>
-      <input
+      <Input
         type="text"
         placeholder="Search..."
         onChange={changeHandler}
         onKeyDown={enterHandler}
-      ></input>
-      <button type="button" onClick={clickHandler}></button>
+      ></Input>
+      <Button type="button" onClick={clickHandler}>
+        <i className="fa fa-search"></i>
+      </Button>
     </div>
   );
 }
