@@ -4,10 +4,10 @@ import Search from "./Search";
 import VideoList from "./VideoList";
 
 export default function VideoBrowser() {
-  const [word, setWord] = useState("happy");
+  const [word, setWord] = useState("semsa suljakovic");
 
   return (
-    <div>
+    <div Search> 
       <Header />
       <Search setWord={setWord} />
       <VideoList word={word} setWord={setWord} />
