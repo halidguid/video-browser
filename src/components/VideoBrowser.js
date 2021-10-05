@@ -4,10 +4,10 @@ import Search from "./Search";
 import VideoList from "./VideoList";
 
 export default function VideoBrowser() {
-  const [word, setWord] = useState("semsa suljakovic");
+  const [word, setWord] = useState("Mile Kitic i Semsa Suljakovic - Grand duel - (Tv Pink 2003) ");
 
   return (
-    <div Search> 
+    <div > 
       <Header />
       <Search setWord={setWord} />
       <VideoList word={word} setWord={setWord} />

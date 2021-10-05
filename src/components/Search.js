@@ -22,6 +22,7 @@ export default function Search({ setWord }) {
   return (
     <div>
       <Input
+      style={{marginTop: "25px", width:"37%"}}
         type="text"
         placeholder="Search..."
         onChange={changeHandler}

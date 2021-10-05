@@ -3,13 +3,11 @@ header {
   margin-left: 50px;
 }
 
-search {
-  margin-left: 50px;
-}
 
-iframe {
+.App {
 
-  margin-left: 35%;
+  width: 100%;
+  background-color: rgb(72, 121, 153);
 
 }
 
